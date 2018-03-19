@@ -16,9 +16,9 @@ public class ColladaRigController : MonoBehaviour {
 		AnimationClip idle = (AnimationClip)Resources.Load("MachopStanding", typeof(AnimationClip));
 		idle.wrapMode = WrapMode.Loop;
 		AnimationClip attack = (AnimationClip)Resources.Load("MachopChop", typeof(AnimationClip));
-		AnimationClip intro = (AnimationClip)Resources.Load("MachopIntro", typeof(AnimationClip));
-		AnimationClip faint = (AnimationClip)Resources.Load("MachopFaint", typeof(AnimationClip));
-		AnimationClip hit = (AnimationClip)Resources.Load("MachopHit", typeof(AnimationClip));
+		AnimationClip intro = (AnimationClip)Resources.Load("MachopChop", typeof(AnimationClip));
+		AnimationClip faint = (AnimationClip)Resources.Load("MachopChop", typeof(AnimationClip));
+		AnimationClip hit = (AnimationClip)Resources.Load("MachopChop", typeof(AnimationClip));
 		AnimationClip[] animationClips = {idle, attack, intro, faint, hit};
 
 		SkinnedMeshRenderer mesh = GetComponentInChildren<SkinnedMeshRenderer>();
@@ -33,6 +33,7 @@ public class ColladaRigController : MonoBehaviour {
 		// AnimatorControllerLayer[] layers = 
 		int i = 0;
 		foreach(AnimationClip animation in aoc.animationClips) {
+			print(animationClips[i].name);
 			print(animation.ToString());
 			
 			anims.Add(new KeyValuePair<AnimationClip, AnimationClip>(animation, animationClips[i]));

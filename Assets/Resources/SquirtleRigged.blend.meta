@@ -1,72 +1,90 @@
 fileFormatVersion: 2
-guid: 976ecf442e5f64c9da856bc29822754b
-timeCreated: 1520902468
+guid: 8493cfe945046423784f398386de9a5e
+timeCreated: 1521479413
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
-    100002: Bone
-    100004: Bone.001
-    100006: Bone.002_L
-    100008: Bone.002_R
-    100010: Bone_L
-    100012: Bone_L.001
-    100014: Bone_L.002
-    100016: Bone_L.003
-    100018: Bone_L.004
-    100020: Bone_L.005
-    100022: Bone_L.006
-    100024: Bone_L.007
-    100026: Bone_R
-    100028: Bone_R.001
-    100030: Bone_R.002
-    100032: Bone_R.003
-    100034: Camera
-    100036: Foot_R
-    100038: Head
-    100040: Hip_R
-    100042: Jaw_Lower
-    100044: Jaw_Upper
-    100046: Leg_R
-    100048: //RootNode
-    100050: Thigh_R
-    100052: wanriky
+    100002: Bone_002_L
+    100004: Bone_002_L_001
+    100006: Bone_002_L_002
+    100008: Bone_002_L_003
+    100010: Bone_002_L_004
+    100012: Bone_002_R
+    100014: Bone_002_R_001
+    100016: Bone_002_R_002
+    100018: Bone_002_R_003
+    100020: Bone_002_R_004
+    100022: Bone_003
+    100024: Bone_004
+    100026: Bone_005
+    100028: Bone_006
+    100030: Bone_L_001
+    100032: Bone_L_002
+    100034: Bone_L_003
+    100036: Bone_L_004
+    100038: Bone_R_001
+    100040: Bone_R_002
+    100042: Bone_R_003
+    100044: Bone_R_004
+    100046: Face
+    100048: Head
+    100050: Jaw_Lower
+    100052: Jaw_Upper
+    100054: Neck
+    100056: polygon0_mat2
+    100058: polygon1_mat1
+    100060: //RootNode
+    100062: Torso
     400000: Armature
-    400002: Bone
-    400004: Bone.001
-    400006: Bone.002_L
-    400008: Bone.002_R
-    400010: Bone_L
-    400012: Bone_L.001
-    400014: Bone_L.002
-    400016: Bone_L.003
-    400018: Bone_L.004
-    400020: Bone_L.005
-    400022: Bone_L.006
-    400024: Bone_L.007
-    400026: Bone_R
-    400028: Bone_R.001
-    400030: Bone_R.002
-    400032: Bone_R.003
-    400034: Camera
-    400036: Foot_R
-    400038: Head
-    400040: Hip_R
-    400042: Jaw_Lower
-    400044: Jaw_Upper
-    400046: Leg_R
-    400048: //RootNode
-    400050: Thigh_R
-    400052: wanriky
-    2000000: Camera
-    2100000: mat_1
-    2100002: mat_0
-    4300000: wanriky
-    7400000: Take 001
+    400002: Bone_002_L
+    400004: Bone_002_L_001
+    400006: Bone_002_L_002
+    400008: Bone_002_L_003
+    400010: Bone_002_L_004
+    400012: Bone_002_R
+    400014: Bone_002_R_001
+    400016: Bone_002_R_002
+    400018: Bone_002_R_003
+    400020: Bone_002_R_004
+    400022: Bone_003
+    400024: Bone_004
+    400026: Bone_005
+    400028: Bone_006
+    400030: Bone_L_001
+    400032: Bone_L_002
+    400034: Bone_L_003
+    400036: Bone_L_004
+    400038: Bone_R_001
+    400040: Bone_R_002
+    400042: Bone_R_003
+    400044: Bone_R_004
+    400046: Face
+    400048: Head
+    400050: Jaw_Lower
+    400052: Jaw_Upper
+    400054: Neck
+    400056: polygon0_mat2
+    400058: polygon1_mat1
+    400060: //RootNode
+    400062: Torso
+    2100000: mat1__ZenigameDh_tga
+    2100002: mat2__ZenigameEyeDh_tga
+    4300000: polygon1_mat1
+    4300002: polygon0_mat2
+    7400000: Default Take
+    7400002: Faint
+    7400004: Hit
+    7400006: Idle
+    7400008: Intro
+    7400010: Long_Attack
+    7400012: Standing
+    7400014: CHOP_
+    7400016: Attack_1
     9500000: //RootNode
-    11100000: //RootNode
-    13700000: wanriky
+    13700000: polygon0_mat2
+    13700002: polygon1_mat1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -82,14 +100,11 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'Bone' has translation animation that will be
-      discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -141,7 +156,7 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2

@@ -31,6 +31,19 @@ ModelImporter:
     100046: //RootNode
     100048: Thigh_R
     100050: wanriky
+    100052: Bone_001
+    100054: Bone_002_L
+    100056: Bone_002_R
+    100058: Bone_L_001
+    100060: Bone_L_002
+    100062: Bone_L_003
+    100064: Bone_L_004
+    100066: Bone_L_005
+    100068: Bone_L_006
+    100070: Bone_L_007
+    100072: Bone_R_001
+    100074: Bone_R_002
+    100076: Bone_R_003
     400000: Armature
     400002: Bone
     400004: Bone.001
@@ -57,6 +70,19 @@ ModelImporter:
     400046: //RootNode
     400048: Thigh_R
     400050: wanriky
+    400052: Bone_001
+    400054: Bone_002_L
+    400056: Bone_002_R
+    400058: Bone_L_001
+    400060: Bone_L_002
+    400062: Bone_L_003
+    400064: Bone_L_004
+    400066: Bone_L_005
+    400068: Bone_L_006
+    400070: Bone_L_007
+    400072: Bone_R_001
+    400074: Bone_R_002
+    400076: Bone_R_003
     2100000: mat_1
     2100002: mat_0
     4300000: wanriky
@@ -72,7 +98,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
+    resampleCurves: 0
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
@@ -82,7 +108,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
